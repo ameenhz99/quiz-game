@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quiz {
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+.option {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  width: 49%;
+  padding: 20px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.option:hover{background-color: rgb(2, 219, 2);}
