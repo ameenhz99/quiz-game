@@ -19,11 +19,7 @@ const quizData = [
     options: ["Food ", "Gaming", "Friends", "Football"],
     answer: 1,
   },
-  {
-    question: "ameen loves Soso percentage% ?",
-    options: ["10000% ", "10000000%", "100%", "infinite"],
-    answer: 3,
-  },
+
 ];
 
 const questionElement = document.querySelector("#question");
