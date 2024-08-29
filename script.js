@@ -21,7 +21,7 @@ const quizData = [
   },
   {
     question: "ameen loves Soso percentage% ?",
-    options: ["10% ", "10000000%", "100%", "infinite"],
+    options: ["10000% ", "10000000%", "100%", "infinite"],
     answer: 3,
   },
 ];
